@@ -35,6 +35,7 @@ class Strongswan < Formula
       --sysconfdir=#{etc}
       --disable-defaults
       --enable-charon
+      --enable-curve25519
       --enable-cmd
       --enable-constraints
       --enable-eap-gtc
